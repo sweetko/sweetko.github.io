@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: NANUMGOTHIC;
+    src: url('../font/NANUMGOTHIC.eot');
+    src: url('../font/NANUMGOTHIC.eot?#iefix') format('embedded-opentype'),
+        url('../font/NANUMGOTHIC.woff') format('woff');
+}
+
+@font-face {
+    font-family: NANUMGOTHICBOLD;
+    src: url('../font/NANUMGOTHICBOLD.eot');
+    src: url('../font/NANUMGOTHICBOLD.eot?#iefix')
+        format('embedded-opentype'), url('../font/NANUMGOTHICBOLD.woff')
+        format('woff');
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html, body{
+	height: 100%;
+	font-size: 100%;
+	font-family: 'Nanum Gothic', 'Nanum Gothic Bold', 'NANUMGOTHIC', 'NANUMGOTHICBOLD';
+}
+
+h1, h2, h3, h4, dl, div{
+	display:block;
+}
+
+div{
+	box-sizing:border-box;
+}
+
+a:link, a:active, a:visited, a:focus{
+	text-decoration: none;
+	color:black;
+}
+
+.Container{
+position:relative;
+width:100%;
+margin:0 auto;
+max-width:960px;
+min-height:100%;
+}
+
+.Container div{
+	width:33.3%;
+	position:relative;
+	float:left;
+	border:1px solid #F4F4EE;
+	padding:5px;
+
+}
