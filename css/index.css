@@ -22,7 +22,7 @@
 
 html, body{
 	height: 100%;
-	font-size: 100%;
+	font-size: 16px;
 	font-family: 'Nanum Gothic', 'Nanum Gothic Bold', 'NANUMGOTHIC', 'NANUMGOTHICBOLD';
 }
 
@@ -38,20 +38,43 @@ a:link, a:active, a:visited, a:focus{
 	text-decoration: none;
 	color:black;
 }
+a:hover{
+	text-decoration:underline;
+}
 
 .Container{
 position:relative;
 width:100%;
 margin:0 auto;
+margin-top:10%;
 max-width:960px;
 min-height:100%;
 }
 
 .Container div{
-	width:33.3%;
+	width:50%;
 	position:relative;
 	float:left;
-	border:1px solid #F4F4EE;
+	border:0px solid #F4F4EE; 
 	padding:5px;
+	height:150px;
+	line-height:initial;
+	font-size: 20px;
+	font-weight:700;
 
 }
+
+#index_home{
+	height:300px;
+	border-right:1px solid #F4F4EE; 
+}
+#index_about{
+	border-bottom:1px solid #F4F4EE;
+}
+
+#img_github{
+width:21px;
+height:21px;
+
+}
+
